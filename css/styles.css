@@ -1,0 +1,8 @@
+body{font-family:'Inter',sans-serif;}
+h1,h2,h3,.font-display{font-family:'Sora',sans-serif;}
+.tabs-scroll::-webkit-scrollbar{height:6px;}
+.tabs-scroll::-webkit-scrollbar-thumb{background:#a7f3d0;border-radius:4px;}
+[id^="slideStage-"]:fullscreen{background:#f8fafc;display:flex;align-items:center;justify-content:center;padding:5vh 6vw;}
+[id^="slideStage-"]:fullscreen [id^="slider-"]{width:100%;max-width:1400px;aspect-ratio:16/9;}
+[id^="slideStage-"]:-webkit-full-screen{background:#f8fafc;display:flex;align-items:center;justify-content:center;padding:5vh 6vw;}
+[id^="slideStage-"]:-webkit-full-screen [id^="slider-"]{width:100%;max-width:1400px;aspect-ratio:16/9;}
